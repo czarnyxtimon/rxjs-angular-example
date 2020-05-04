@@ -1,5 +1,5 @@
 # Dodatkowe przykłady na potrzeby kursu Angulara
-
+# Przykłady RxJS z BehaviorSubject i Subject.
 
 ## Więcej informacji:
 - mój kurs na Udemy [https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/](https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/?referralCode=58A71AA9B0E86A4D8D88)
@@ -7,7 +7,7 @@
 - kanał YT: [https://www.youtube.com/ZacznijProgramowac](https://www.youtube.com/ZacznijProgramowac)
 
 # Otwórz ten projekt przez StackBlitz:
-...
+https://stackblitz.com/github/ZacznijProgramowac/rxjs-angular-example/tree/Finished
 
 ## Wymagania projektu
 - Angular CLI & Angular > 9.0.0
