@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Person } from '../services/data-base.service';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-right',
@@ -7,9 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RightComponent implements OnInit {
 
-  constructor() {}
+  persons: Observable<Person[]>;
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-
+    this.persons = this.dataService.subject.asObservable();
   }
+
 }
